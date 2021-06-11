@@ -10,6 +10,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&family=Didact+Gothic&family=Merriweather+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&family=Roboto+Condensed:wght@400;700&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/46da42a676.js" crossorigin="anonymous"></script>
     <title>Main</title>
 </head>
 <header>
@@ -17,22 +18,22 @@
         <div class="container">
             <div class="header-menu-top">
                 <div class="menu-top menu-top_left">
-                    <a href="#">My Account</a>
-                    <a href="#">MY Wishlist <span>(0)</span></a>
-                    <a href="#">Checkout</a>
-                    <a href="#">Log In<span
+                    <a href="#" class="top-link menu-style">My Account</a>
+                    <a href="#" class="top-link menu-style">MY Wishlist <span>(0)</span></a>
+                    <a href="#" class="top-link menu-style">Checkout</a>
+                    <a href="#" class="top-link menu-style log-in">Log In<span
                             class="hide-element">&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;Register</span></a>
                 </div>
                 <div class="menu-top menu-top_right">
-                    <a href="#">
-                        <select name="currency" id="">
+                    <a href="#" class="top-link menu-style">
+                        <select name="currency" id="" class="menu-select menu-style">
                             <option>US Dollar</option>
                             <option>Euro</option>
                             <option>Pound St.</option>
                         </select>
                     </a>
-                    <a href="#">
-                        <select name="language" id="">
+                    <a href="#" class="top-link menu-style">
+                        <select name="language" id="" class="menu-select menu-style">
                             <option>English</option>
                             <option>Italian</option>
                             <option>Spanish</option>
@@ -50,7 +51,7 @@
                                     <div class="description-item">
                                         <h3>Mustard yellow ruffle
                                             dress</h3>
-                                        <span>$478</span>
+                                        <span class="old-price hide-item">$478</span><span class="price">$478</span>
                                     </div>
                                     <div class="delete-item">
                                         <button type="submit">
@@ -59,10 +60,166 @@
                                         </button>
                                     </div>
                                 </div>
+                                <div class="cart-item">
+                                    <div class="img-item"></div>
+                                    <div class="description-item">
+                                        <h3>Navy Blue Silk Pleated
+                                            Shift Dress</h3>
+                                        <span class="old-price">$250</span>
+                                        <span class="price">$180</span>
+                                    </div>
+                                    <div class="delete-item">
+                                        <button type="submit">
+                                            <img src="img/header/delete1.svg" alt="cross" class="cart-cross">
+                                            <img src="img/header/delete2.svg" alt="cross" class="cart-cross-hover">
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="cart-total-price">
+                                    <p>Shipping:<span class="price">$7</span></p>
+                                    <p>Total:<span class="price">$736</span></p>
+                                </div>
+                                <div class="main-cart-buttons">
+                                    <a href="#">Cart</a>
+                                    <div></div>
+                                    <a href="#">Checkout</a>
+                                </div>
                             </div>
                         </details>
                     </div>
 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="menu-top menu-top_right_368">
+            <a href="#" class="top-link">
+                <select name="currency" id="" class="menu-select menu-style">
+                    <option>US Dollar</option>
+                    <option>Euro</option>
+                    <option>Pound St.</option>
+                </select>
+            </a>
+            <a href="#" class="top-link">
+                <select name="language" id="" class="menu-select menu-style">
+                    <option>English</option>
+                    <option>Italian</option>
+                    <option>Spanish</option>
+                    <option>French</option>
+                    <option>German</option>
+                </select>
+            </a>
+        </div>
+        <div class="header-menu-bottom">
+            <div class="logo">
+                <a href="#">
+                    <img src="img/logo1.svg" alt="logo">FENGO</a>
+            </div>
+            <div class="search-and-nav-bar">
+                <div class="search-bar">
+                    <form action="#">
+                        <input type="text" placeholder="Find it here...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <div class="nav-bar">
+                    <nav>
+                        <a href="" class="nav-link">Fashion</a>
+                        <a href="" class="nav-link">Electronics</a>
+                        <a href="" class="nav-link">Gifts</a>
+                        <a href="" class="nav-link">Books</a>
+                        <a href="" class="nav-link">At Home</a>
+                        <a href="" class="nav-link">Music</a>
+                        <a href="" class="nav-link">Sale</a>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+        <div class="header-menu-bottom-724">
+            <div class="logo-and-nav-bar">
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/logo1.svg" alt="logo">FENGO</a>
+                </div>
+                <a href="#" class="top-link menu-style hide-link">Log In&nbsp;&nbsp;&nbsp;or&nbsp;&nbsp;&nbsp;Register</a>
+                <div class="search-bar">
+                    <form action="#">
+                        <input type="text" placeholder="Find it here...">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <nav class="nav-bar">
+                <a href="" class="nav-link">Fashion</a>
+                <a href="" class="nav-link">Electronics</a>
+                <a href="" class="nav-link">Gifts</a>
+                <a href="" class="nav-link">Books</a>
+                <a href="" class="nav-link">At Home</a>
+                <a href="" class="nav-link">Music</a>
+                <a href="" class="nav-link">Sale</a>
+            </nav>
+            <div class="nav-bar-540">
+                <details class="nav-accordion">
+                    <summary><i class="fas fa-bars"></i> Navigation</summary>
+                    
+                        <div class="accordion-list">
+                            <a href="" class="nav-link nav-link__540">Fashion</a>
+                            <a href="" class="nav-link nav-link__540">Electronics</a>
+                            <a href="" class="nav-link nav-link__540">Gifts</a>
+                            <a href="" class="nav-link nav-link__540">Books</a>
+                            <a href="" class="nav-link nav-link__540">At Home</a>
+                            <a href="" class="nav-link nav-link__540">Music</a>
+                            <a href="" class="nav-link nav-link__540">Sale</a>
+                        </div>
+                    
+                </details>
+                <div class="header-bottom-cart">
+                    <details>
+                        <summary><img src="img/header/basket.svg" alt="basket"> <span>$0.00</span></summary>
+                        <div class="cart cart-header-bottom">
+                            <p>Recently added item(s)</p>
+                            <div class="cart-item">
+                                <div class="img-item"></div>
+                                <div class="description-item">
+                                    <h3>Mustard yellow ruffle
+                                        dress</h3>
+                                    <span class="old-price hide-item">$478</span><span class="price">$478</span>
+                                </div>
+                                <div class="delete-item">
+                                    <button type="submit">
+                                        <img src="img/header/delete1.svg" alt="cross" class="cart-cross">
+                                        <img src="img/header/delete2.svg" alt="cross" class="cart-cross-hover">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="cart-item">
+                                <div class="img-item"></div>
+                                <div class="description-item">
+                                    <h3>Navy Blue Silk Pleated
+                                        Shift Dress</h3>
+                                    <span class="old-price">$250</span>
+                                    <span class="price">$180</span>
+                                </div>
+                                <div class="delete-item">
+                                    <button type="submit">
+                                        <img src="img/header/delete1.svg" alt="cross" class="cart-cross">
+                                        <img src="img/header/delete2.svg" alt="cross" class="cart-cross-hover">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="cart-total-price">
+                                <p>Shipping:<span class="price">$7</span></p>
+                                <p>Total:<span class="price">$736</span></p>
+                            </div>
+                            <div class="main-cart-buttons">
+                                <a href="#">Cart</a>
+                                <div></div>
+                                <a href="#">Checkout</a>
+                            </div>
+                        </div>                        
+                    </details>
                 </div>
             </div>
         </div>
