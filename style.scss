@@ -10,6 +10,10 @@ html {
     margin: 0 auto;
     padding: 0 20px;
 }
+.container-max {
+    max-width: 1920px;
+    margin: 0 auto;
+}
 .header-top-bg {
     background-color: #f6f6f6;
 }
@@ -447,4 +451,91 @@ html {
     @media screen and  (max-width: 540px) {
         padding: 15px 0;
     }
+}
+.slider-container {
+    position: relative;
+}
+.slider-item {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+.slider {
+    position: absolute;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    align-items: center;
+}
+.slider-button {
+    text-decoration: none;
+    display: flex; 
+    align-items: center;
+    justify-content: center;  
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    width: 48px;
+    height: 48px;    
+}
+.fa-chevron-left, .fa-chevron-right {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.slider-text {
+    color: #555555;
+    font-family: Cousine;
+    font-size: 30px;
+    font-weight: 700;
+}
+.slider-h1 {
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.05);
+    color: #ffffff;
+    font-family: 'Merriweather Sans';
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 80px;
+}
+.slider-h2 {
+    color: #4c4c4c;
+    font-family: "Roboto Condensed";
+    font-size: 35px;
+    font-weight: 700;
+}
+.slider-link {
+    text-decoration: none;
+    color: #333333;
+    font-family: "Merriweather Sans";
+    font-size: 14px;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+.fa-angle-right {    
+    font-family: FontAwesome;
+    color: #333333;
+    transition: color 0.3s;
+}
+.slider-link:hover  {
+    color: #cf4647;
+}
+.slider-link:hover .fa-angle-right {
+    color: #cf4647;
+}
+.slider-nav-box {
+    display: flex;
+    justify-content: space-between;
+    width: 58px;
+}
+.slider-nav {
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    width: 10px;
+    height: 10px;
+    &_active {
+        background-color: #ffffff;
+    } 
 }
